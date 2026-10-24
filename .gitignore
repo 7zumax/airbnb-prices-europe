@@ -1,0 +1,6 @@
+# Raw and generated data (download from Kaggle / produced by the notebook)
+*.csv
+*.csv.gz
+*.xlsx
+.ipynb_checkpoints/
+__pycache__/

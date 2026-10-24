@@ -1,0 +1,46 @@
+{
+  "name": "Airbnb Dark",
+  "dataColors": ["#FF5A5F", "#00A699", "#FFB400", "#7B61FF", "#FC642D", "#8CE071", "#4FC3F7", "#B0BEC5"],
+  "background": "#18232F",
+  "foreground": "#FFFFFF",
+  "tableAccent": "#FF5A5F",
+  "good": "#00A699",
+  "neutral": "#FFB400",
+  "bad": "#FF5A5F",
+  "textClasses": {
+    "callout": { "fontSize": 26, "fontFace": "Segoe UI Bold", "color": "#FFFFFF" },
+    "title": { "fontSize": 13, "fontFace": "Segoe UI Semibold", "color": "#FFFFFF" },
+    "header": { "fontSize": 12, "fontFace": "Segoe UI Semibold", "color": "#FFFFFF" },
+    "label": { "fontSize": 10, "fontFace": "Segoe UI", "color": "#C5CED8" }
+  },
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [{ "show": true, "color": { "solid": { "color": "#18232F" } }, "transparency": 0 }],
+        "border": [{ "show": true, "color": { "solid": { "color": "#253445" } }, "radius": 12 }],
+        "dropShadow": [{ "show": false }],
+        "title": [{ "show": true, "fontColor": { "solid": { "color": "#FFFFFF" } }, "fontSize": 13, "bold": true }],
+        "visualHeader": [{ "background": { "solid": { "color": "#18232F" } }, "foreground": { "solid": { "color": "#C5CED8" } }, "border": { "solid": { "color": "#18232F" } } }],
+        "categoryAxis": [{ "labelColor": { "solid": { "color": "#C5CED8" } }, "titleColor": { "solid": { "color": "#C5CED8" } }, "gridlineShow": false }],
+        "valueAxis": [{ "labelColor": { "solid": { "color": "#C5CED8" } }, "titleColor": { "solid": { "color": "#C5CED8" } }, "gridlineColor": { "solid": { "color": "#253445" } } }],
+        "legend": [{ "labelColor": { "solid": { "color": "#C5CED8" } } }],
+        "labels": [{ "color": { "solid": { "color": "#FFFFFF" } } }]
+      }
+    },
+    "page": {
+      "*": {
+        "background": [{ "color": { "solid": { "color": "#0E1621" } }, "transparency": 0 }],
+        "outspace": [{ "color": { "solid": { "color": "#0B1219" } }, "transparency": 0 }]
+      }
+    },
+    "slicer": {
+      "*": {
+        "data": [{ "mode": "Dropdown" }],
+        "items": [{ "fontColor": { "solid": { "color": "#FFFFFF" } }, "background": { "solid": { "color": "#253445" } } }],
+        "header": [{ "fontColor": { "solid": { "color": "#C5CED8" } } }]
+      }
+    },
+    "clusteredBarChart": { "*": { "labels": [{ "show": true }] } },
+    "clusteredColumnChart": { "*": { "labels": [{ "show": true }] } }
+  }
+}
